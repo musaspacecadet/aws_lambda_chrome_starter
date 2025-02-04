@@ -1,10 +1,10 @@
 # AWS Lambda Chrome Batch Download Starter
 
-A starter kit for running headless Chrome on AWS Lambda to batch download web pages using a Chrome extension. Saves downloaded HTML with compressed content storage.
+A starter kit for running GUI mode Chrome on AWS Lambda to batch download web pages using a Chrome extension. Saves downloaded HTML with compressed content storage.
 
 ## Features
 
-- 🚀 Headless Chrome automation in AWS Lambda
+- 🚀 headfulChrome automation in AWS Lambda
 - 📦 Chrome extension integration (SingleFile format)
 - 🔄 Fuzzy matching of URLs to downloaded files
 - 🗜️ Gzip compression + Base64 encoding of content
@@ -107,7 +107,7 @@ Sample response:
 **Common Issues:**
 - ⏱️ Timeouts: Increase Lambda timeout/memory settings
 - 🔒 File Permissions: Ensure /tmp directory write access
-- 🖥️ Headless Issues: Test with visible browser first
+- 🖥️ headfulIssues: Test with visible browser first
 - 🔍 Content Matching: Adjust fuzzy match thresholds
 
 **Debugging Tips:**
@@ -126,3 +126,8 @@ PRs welcome! Please:
 1. Open issue first for major changes
 2. Update tests accordingly
 3. Maintain coding style consistency
+
+Happy scraping! 🕷️  
+
+---  
+*Disclaimer: Always scrape responsibly and respect websites’ terms of service and robots.txt files.*
