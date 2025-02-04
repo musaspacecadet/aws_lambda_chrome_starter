@@ -1,0 +1,4 @@
+fuzzywuzzy==0.18.0
+python-Levenshtein
+botasaurus==4.0.75
+botasaurus_driver==4.0.66
